@@ -1,0 +1,13 @@
+
+Exercícios Revisão 2:
+
+
+1. Imprima uma matriz de inteiros 3x3 transposta.
+2. Faça uma função que receba um vetor e imprima o menor valor dele.
+3. Faça uma função que recebe um número inteiro e retorne verdadeiro
+caso o número digitado for primo e falso caso contrário.
+4. Faça uma função que receba dois números inteiros, sendo o primeiro o
+limite inferior e o segundo o limite superior, e imprima todos os
+números primos deste intervalo.
+5. Faça uma função que receba um número inteiro e retorne o fatorial do
+número digitado, faça a solução iterativa e a solução recursiva.

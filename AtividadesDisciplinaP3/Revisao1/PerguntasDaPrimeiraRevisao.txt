@@ -1,0 +1,13 @@
+
+Primeira Revisão da cadeira de P3; 
+ 
+Exercícios:
+
+1. Faça um programa que verifique se um número é par ou ímpar.
+
+2. Faça um programa que conte quantos números divisíveis por 3 existem
+em um intervalo dado pelo usuário, sendo o intervalo o mínimo e o
+máximo.
+
+3. Faça um programa que, dado 3 números digitados pelo usuário, ordene
+eles do menor para o maior.

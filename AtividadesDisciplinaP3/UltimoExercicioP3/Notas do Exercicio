@@ -1,0 +1,83 @@
+Obs: Esse exercicio foi feito antes da Prova que valia 30% da nota.
+
+Interface operações
+
+Esta interface de operações irá conter os métodos que serão
+implementados na classe completa, seguem os métodos:
+- Void depositar;
+- Void sacar;
+- Void extrato.
+
+Estes métodos terão uma descrição a seguir.
+
+Classe Cliente
+
+Tenha os seguintes atributos:
+● Nome - String;
+● Idade - Inteiro;
+● Conta - String;
+● Agência - String;
+● Saldo - Double;
+● Histórico - É um vetor do tipo operação com 30 posições.
+
+Classe Operação
+
+Tenha os seguintes atributos:
+● Tipo da operação - String;
+● Valor - Double;
+● Data - String;
+● Hora - String;
+
+Classe Cliente
+
+A classe deve ter os métodos a seguir, eles devem ser implementados da
+interface:
+● Depositar - Recebe uma data, hora e um valor double e incrementa o
+saldo do cliente;
+● Sacar - Recebe uma data, hora e um valor double e decrementa o saldo
+do cliente, mas caso ele não tenha valor para isto, lance uma exceção
+do tipo Exception;
+● Extrato - Imprime todas as 10 operações que o usuário fez, caso
+existam. Mantenha o vetor sempre atualizado com as operações mais
+recentes. Dica: import java.util.Arrays e use Arrays.copyOfRange(vetor,
+inicio, final - 1).
+
+Classe abstrata produto
+
+A classe abstrata deve possuir:
+● Valor - Double;
+● Data - String;
+● Hora - String;
+E os seguintes métodos abstratos:
+● Rendimento;
+
+Classe Investimento
+
+Herda da classe abstrata Produto e implementa o método abstrato
+rendimento.
+● O método rendimento aumentará o valor do saldo em 3%.
+
+Classe Cliente Especial
+
+Atributo:
+● Investimento - Atributo do tipo investimento.
+Herança:
+● Vai herdar todo o conteúdo de Cliente e vai sobrescrever o método de
+extrato da seguinte forma:
+○ O método vai imprimir todas as 30 últimas operações, irá imprimir uma
+média para o depósito e para o saque;
+
+● Vai ter o método investimento: Vai receber uma data, uma hora e tomar
+um valor investido e um percentual, caso ele tenha esse valor, debite do
+saldo, caso não lance uma exceção. O valor que ele investir vai
+aumentar de acordo com o rendimento do investimento.
+OBS.: O investimento também entra no vetor de operações.
+
+Classe Cliente Especial
+
+OBS.: O investimento também entra no vetor de operações com uma
+data e uma hora
+● Resgate: O método vai receber apenas uma data e uma hora e o
+indivíduo vai poder resgatar o valor investido caso a data de
+resgate deve ser diferente da data de investimento.
+
